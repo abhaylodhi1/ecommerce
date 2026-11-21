@@ -11,7 +11,7 @@ const HERO_SLIDES = [
     {
         gradient: 'from-blue-600 via-blue-800 to-purple-900',
         title: 'Premium Quality Products',
-        subtitle: 'Discover the best deals at Zay Wal',
+        subtitle: 'Discover the best deals at Qubix',
         cta: 'Shop Now',
         link: '/products'
     },
@@ -264,7 +264,7 @@ function NewArrivalsSection() {
 function FeaturesSection() {
     return (
         <section>
-            <h2 className="text-2xl font-bold text-white mb-6">Why Choose Zay Wal</h2>
+          
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
                 {FEATURES.map((feature, index) => (
                     <GlassCard key={index} className="text-center">

@@ -9,7 +9,7 @@ export default function Footer() {
                     {/* Brand Section */}
                     <div className="space-y-4">
                         <Link to="/" className="text-2xl font-bold text-white tracking-wider">
-                            Zay Wal
+                        Qubix
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed">
                             Your premium destination for the latest gadgets, fashion, and lifestyle essentials in Myanmar. 
@@ -91,7 +91,7 @@ export default function Footer() {
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-sm text-gray-500">
-                        &copy; {new Date().getFullYear()} Zay Wal. All rights reserved.
+                        &copy; {new Date().getFullYear()} Qubix. All rights reserved.
                     </p>
                     <div className="flex gap-4 text-xl text-gray-400">
                         <i className="fa-brands fa-cc-visa hover:text-white transition-colors cursor-pointer"></i>
